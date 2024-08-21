@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rahulbhenjalia.phasei">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Assistant Parking Navigator"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".GoogleSignIN">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CurrentPanel" />
+        <activity android:name=".SearchByName" />
+        <activity android:name=".SearchByCar" />
+        <activity android:name=".Recents" />
+        <activity android:name=".Register" />
+        <activity android:name=".OcrCaptureActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".camera.detect_main" />
+        <activity android:name=".SlotAssign" />
+        <activity android:name=".GenerateReciept"></activity>
+    </application>
+
+
+</manifest>

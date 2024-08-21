@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoogleSignIN"
+    android:background="@color/Azure">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/Cornsilk"
+        android:fontFamily="serif-monospace"
+        android:text="Welcome To Administrator View"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/autho"
+        android:layout_width="334dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:ems="10"
+        android:hint="YOUR CODE HERE"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cnfrm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="138dp"
+        android:text="SIGN IN" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cnfrm"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-145dp"
+        android:layout_marginTop="157dp"
+        android:background="@color/MintCream"
+        android:fontFamily="monospace"
+        android:text="Please Enter Your Employee Authorization Code"
+        android:textAlignment="center"
+        android:textColor="@color/DarkCyan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

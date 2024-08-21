@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@color/Azure">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="107dp"
+        android:autofillHints="@string/b"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="172dp"
+        android:autofillHints="@string/b"
+        android:ems="10"
+        android:hint="@string/contact"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/cno"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginBottom="193dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/cno"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/cnfrm"
+        android:layout_width="128dp"
+        android:layout_height="85dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-149dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="85dp"
+        android:layout_toEndOf="@+id/cno"
+        android:text="@string/btncnfrm"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+</RelativeLayout>

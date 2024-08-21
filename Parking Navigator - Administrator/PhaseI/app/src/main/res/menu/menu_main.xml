@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rahulbhenjalia.phasei.MainActivity">
+
+
+    <item
+        android:id="@+id/current_panel"
+        android:orderInCategory="100"
+        android:title="Current Panel"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/recents"
+        android:orderInCategory="100"
+        android:title="Recents"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search_by_car"
+        android:orderInCategory="100"
+        android:title="Search By Vehicle No"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search_by_name"
+        android:orderInCategory="100"
+        android:title="Search By Name"
+        app:showAsAction="never" />
+
+
+</menu>
+

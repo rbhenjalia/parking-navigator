@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GenerateReciept">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="291dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@color/LavenderBlush"
+        android:fontFamily="sans-serif"
+        android:textAlignment="textEnd"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="291dp"
+        android:background="@color/FloralWhite"
+        android:text="@string/dt"
+        android:textAlignment="viewEnd"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="253dp"
+        android:background="@color/LavenderBlush"
+        android:text="@string/con"
+        android:textAlignment="viewEnd"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="253dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@color/FloralWhite"
+        android:fontFamily="sans-serif"
+        android:textAlignment="textEnd"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="215dp"
+        android:background="@color/FloralWhite"
+        android:text="@string/amt"
+        android:textAlignment="viewEnd"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/amt"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="215dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@color/LavenderBlush"
+        android:fontFamily="sans-serif"
+        android:textAlignment="textEnd"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/etime"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="174dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@color/FloralWhite"
+        android:fontFamily="sans-serif"
+        android:textAlignment="textEnd"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="174dp"
+        android:background="@color/LavenderBlush"
+        android:text="@string/etime"
+        android:textAlignment="viewEnd"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="132dp"
+        android:background="@color/FloralWhite"
+        android:text="@string/stime"
+        android:textAlignment="viewEnd"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stime"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="132dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@color/LavenderBlush"
+        android:fontFamily="sans-serif"
+        android:textAlignment="textEnd"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="92dp"
+        android:background="@color/LavenderBlush"
+        android:text="@string/nme"
+        android:textAlignment="viewEnd"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="92dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@color/FloralWhite"
+        android:fontFamily="sans-serif"
+        android:textAlignment="textEnd"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/FloralWhite"
+        android:text="@string/namex"
+        android:textAlignment="viewEnd"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rec_no"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@color/LavenderBlush"
+        android:fontFamily="sans-serif"
+        android:textAlignment="textEnd"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/tag"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/Azure"/>
+
+    <Button
+        android:id="@+id/cnf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:text="@string/cnfrm" />
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information_Form"
+    android:background="@color/GreenYellow">
+
+
+    <EditText
+        android:id="@+id/nme"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="95dp"
+        android:background="@color/AliceBlue"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phno"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/nme"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="183dp"
+        android:background="@color/AliceBlue"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/carno"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/nme"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="276dp"
+        android:background="@color/AliceBlue"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/cnfirm"
+        android:layout_width="136dp"
+        android:layout_height="119dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="CONFIRM" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nme"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="How About A Little Personal Info. !?"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

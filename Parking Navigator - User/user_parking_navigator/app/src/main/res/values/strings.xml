@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">User Parking Navigator</string>
+    <string name="title_activity_homeview">homeview</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="ocr_header">CLICK DETECT TO CAPTURE THE VEHICLE NUMBER</string>
+    <string name="read_text">DETECT</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">SUCCESSFUL</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="cnfrm">CONFIRM</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <string name="ti">XX-XX-XX-XXXX</string>
+    <string name="a">SELECT YOUR VEHICLE CODE</string>
+    <string name="name">ENTER OWNERS NAME</string>
+    <string name="contact">ENTER OWNERS CONTACT</string>
+    <string name="btncnfrm">GET SLOT</string>
+    <string name="regstat">REGISTRTION STATUS</string>
+    <string name="xd">SLOT ASSIGNED</string>
+    <string name="xp">Redirecting in 5 seconds....</string>
+    <string name="cno">CAR NUMBER</string>
+    <string name="x">ENTER YOUR SERIES </string>
+    <string name="y">ENTER YOUR 4 DIGIT NUMBER </string>
+    <string name="b">CONFIRM</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+
+    <string name="namex">Invoice No:</string>
+    <string name="nme">Name:</string>
+    <string name="stime">Start Time:</string>
+    <string name="etime">End Time:</string>
+    <string name="amt">Amount:</string>
+    <string name="con">Contact:</string>
+    <string name="dt">Date:</string>
+    <string name="tag">Invoice</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_map__navigation">Map</string>s
+
+</resources>
